@@ -22,6 +22,16 @@ $("#github").mouseleave(function(){
     $('#github a').animate({"font-size": "5em"}, 100)
 });
 
+$("#tableau").click(function(){
+    $('a, h1, header').fadeOut(800);
+});
+$("#tableau").mouseenter(function(){
+    $('#tableau a').animate({"font-size": "5.2em"}, 100)
+});
+$("#tableau").mouseleave(function(){
+    $('#tableau a').animate({"font-size": "5em"}, 100)
+});
+
 
 $("#email").mouseenter(function(){
     $('#email a').animate({"font-size": "5.2em"}, 100)
